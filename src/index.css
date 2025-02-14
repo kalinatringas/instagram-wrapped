@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+:root{
+  --blue: #227c9d;
+  --green: #17C3B2;
+  --yellow: #FFCB77;
+  --off-white: #FEF9EF;
+  --red: #FE6D73;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: var(--red);
+  background-color: var(--off-white);
+  /* background-image: linear-gradient(45deg,var(--yellow), var(--off-white)); */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+@font-face {
+  font-family: "PaindeMieRegular";
+  src: url("public/PaindeMieRegular.ttf");
+}
+
+h1{
+  font-family: "PaindeMieRegular";
+  font-size: 8em;
+  text-align: center;
+}
+
